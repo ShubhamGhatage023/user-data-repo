@@ -1,0 +1,109 @@
+.main-container{
+  background-color: #f4f4f9;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-list-section, .user-detail-section, .action-section {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-list-section {
+  width: 20%;
+}
+
+.user-detail-section {
+  width: 60%;
+}
+
+.action-section {
+  width: 20%;
+}
+
+.user-list .user-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.user-list .user-item:hover {
+  background-color: #eef;
+}
+
+.detail-section{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #f4f4f9;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tab-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.profile, .contacts {
+  line-height: 1.8;
+  padding: 20px 0px;
+  justify-content: center;
+}
+
+.profile p, .contacts p {
+  margin: 25px 0;
+  font-size: 16px;
+}
+
+.action-panel {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  background-color: #eef;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 40px;
+}
